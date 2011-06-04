@@ -4,3 +4,9 @@ AddHandler cgi-script .py
 AuthType WebAuth
 require valid-user
 </Files>
+
+
+<Files submit.html>
+AuthType WebAuth
+require valid-user
+</Files>
